@@ -1,0 +1,32 @@
+Closures
+-------
+Python Closures are these inner functions that are enclosed within the outer function.
+Closures can access variables present in the outer function scope.
+It can access these variables even after the outer function has completed its execution.
+
+expample code:
+--------------
+def outer(name):
+    def inner():
+        print(name)
+    return inner
+
+myFunction = outer('TechVidvan')
+myFunction()
+
+
+other example:
+--------------
+def sum(num):
+    def add(x):
+        return num + x
+    return add
+print(sum(12)(5))
+
+
+
+When and Why do you need to use Closures in Python?
+---------------------------------------------------
+To implement data hiding: The only way to access the enclosed function is by calling the enclosing function. 
+There is no way to access the inner function directly.
+

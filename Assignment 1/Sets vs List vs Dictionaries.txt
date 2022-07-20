@@ -1,0 +1,62 @@
+List
+----
+1)A list is a collection of ordered data.	
+2)Lists are mutable.
+3)Lists are declared with square braces.	
+
+code example
+------------
+list1=[25,4,"Abdelrahman",2001,"AAST"]
+list2=[]  # creates an empty list
+list3=list((1,2,3))
+print(list1)
+print(list2)
+print(list3)
+
+___________________________________________________________________________________________________________________________
+
+Tuples
+------
+1)A tuple is an ordered collection of data.	
+2)Tuples are immutable.	
+3)Tuples are enclosed within parenthesis.	
+
+code example
+------------
+tuple1=(25,4,"Abdelraahman",2001)
+tuple2=() # creates an empty tuple
+tuple3=tuple((1,2,3,4,"hello"))
+print(tuple1)
+print(tuple2)
+print(tuple3)
+___________________________________________________________________________________________________________________________
+
+Sets
+----
+1)A set is an unordered collection.	
+2)Sets are mutable and have no duplicate elements.	
+3)Sets are represented in curly brackets.	
+
+code example
+------------
+set1={1,2,3,4,5,"hello","tup"}
+set2={(1,8,"python",7)}
+print(set1)
+print(set2)
+
+___________________________________________________________________________________________________________________________
+
+Dictionaries
+------------
+1)A dictionary is an unordered collection of data that stores data in key-value pairs.
+2)Dictionaries are mutable and keys do not allow duplicates.
+3)Dictionaries are enclosed in curly brackets in the form of key-value pairs.
+
+code example
+------------
+dict1={"key1":"value1","key2":"value2"}
+dict2={}   # empty dictionary
+dict3=dict({1:"apple",2:"cherry",3:"strawberry"})
+print(dict1)
+print(dict2)
+print(dict3)

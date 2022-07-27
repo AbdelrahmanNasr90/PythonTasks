@@ -40,15 +40,10 @@ for i in range (1,101):
     print(i * x)
 
 # 5)
-list_numbers = []
-n = int(input("Enter number of elements : "))  
-for i in range(0, n):
-    sum = int(input())
-    list_numbers.append(sum)
-x = len(list_numbers) 
-while x >= 0 :
-    print(list_numbers[x]) 
-    x -= 1
+list = [10, 20, 30, 40, 50]
+new_list = reversed(list)
+for i in new_list:
+    print(i)
 
 # 6)
 x= int(input("Enter your start "))
@@ -77,6 +72,12 @@ for fizzbuzz in range(51):
     print(fizzbuzz)
 
 # 8)
+
+def check(t):
+    return all(i == t[0] for i in t)
+tuple1 = (45, 45, 45, 45)
+print(check(tuple1))
+#or
 
 x = (True, True, True)
 result = all(x)

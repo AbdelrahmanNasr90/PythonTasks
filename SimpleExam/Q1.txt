@@ -1,0 +1,67 @@
+1)
+
+List
+----
+The List is just like the arrays, declared in other languages
+Lists are mutable.
+Lists are declared with square braces.
+The implication of iterations is Time-consuming
+Lists consume more memory	
+
+tuples
+------
+A Tuple is also a sequence data type that can contain elements of different data types, but these are immutable in nature. 
+Tuples are immutable.	
+Tuples are enclosed within parenthesis.	
+The tuple is faster than the list because of static in nature.
+Tuple consumes less memory as compared to the list
+
+
+________________________________________________________________________________________________________________________________
+2)
+break
+-----
+Terminate the current loop. Use the break statement to come out of the loop instantly.
+
+continue
+--------
+Skip the current iteration of a loop and move to the next iteration
+
+pass
+----
+Do nothing. Ignore the condition in which it occurred and proceed to run the program as usual
+
+_____________________________________________________________________________________________________________________________
+
+3)   what is use self ? 
+-----------------------
+
+It is used in method definitions and in variable initialization
+The self method is explicitly used every time we define a method. In this article
+and it  can't  void and return   and called in c++  by  this.  
+__________________________________________________________________________________________________________________________________
+
+4) docstring
+------------
+A Python docstring is a string used to document a Python module, class, function or method, so programmers can understand what it does without having to read the details of the implementation.
+
+and  do it  by  write   ''' type anything '''       that will help the programer or  who run this method
+
+__________________________________________________________________________________________________________________________________
+
+5)Python supports multiple inheritance . explain it with example
+----------------------------------------------------------------
+When a class is derived from more than one base class it is called multiple Inheritance. The derived class inherits all the features of the base case.
+
+example
+------
+Class animal:
+       test 1
+
+Class dog:
+    test 2
+
+Class Haski(animal, dog):
+     test 3
+______________________________________________________________________________________________________________________________
+

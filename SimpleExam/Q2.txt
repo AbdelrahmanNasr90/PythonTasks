@@ -1,0 +1,5 @@
+1)   true      might because all depends on how the OS handle executable and how the compiler compile the class and what is the architecture of the CPU
+2)   false     organizes software design around data, or objects, rather than functions and logic
+3)   true
+4)   false     no void and retuen 
+5)   true

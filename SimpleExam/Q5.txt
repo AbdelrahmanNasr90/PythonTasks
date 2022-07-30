@@ -1,0 +1,47 @@
+1) Default constructor vs parameterized constructor 
+----------------------------------------------------
+Default constructor
+-------------------
+The Python default constructor is a simple constructor which doesn’t accept any arguments. Its definition has only one argument which is a reference to the instance being constructed.
+A constructor is a method with always has a name init and the name init is prefixed and suffixed with a double underscore(__).
+
+example
+------
+def __init__(self):
+    # simpleProject
+__________________________________________________________________
+
+parameterized constructor 
+------------------------
+A constructor with a Parameter is called Parameterized constructor in Python. Parameters could be one, two, or more.
+
+class Person:
+  def __init__(self, id, name):
+    self.ID = id
+    self.Name = name
+
+______________________________________________________________________________________________________________________________________________________________________________
+2) Class vs object 
+------------------
+
+An object is simply a collection of data (variables) and methods (functions) that act on those data. Similarly, a class is a blueprint for that object.
+
+Like function definitions begin with the def keyword in Python, class definitions begin with a class keyword.
+
+
+
+example Class
+-------------
+class Dog:
+  age = 5
+
+
+exmple object
+-------------
+acc = account()
+print(acc.test)
+
+
+
+
+
